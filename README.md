@@ -1,5 +1,8 @@
 # Application de Reconnaissance Faciale en Python
 
+![Apercu de l'application](Illustration1.png)
+
+
 Cette application permet d’enregistrer, gérer et reconnaître des personnes à partir d’images ou d’un flux webcam.
 Elle utilise :
 
@@ -16,6 +19,7 @@ Elle utilise :
 # Fonctionnalités
 ## 1. Enregistrement
 
+![Apercu de l'application](Illustration2.png)
 - Chargement d’une image depuis le disque
 
 - Capture de photo via la webcam
@@ -37,6 +41,7 @@ Elle utilise :
   - Données faciales sérialisées
 
 ## 2. Gestion
+![Apercu de l'application](Illustration3.png)
 
 - Affichage de toutes les personnes enregistrées
 
@@ -47,6 +52,7 @@ Elle utilise :
 - Rafraîchissement de la liste en temps réel
 
 ## 3. Reconnaissance
+![Apercu de l'application](Illustration4.png)
 
 - Reconnaissance via webcam en direct
 
