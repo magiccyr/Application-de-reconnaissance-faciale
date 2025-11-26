@@ -78,7 +78,7 @@ Chaque visage est redimensionné en 200×200 pixels, puis entraîné à chaque a
 
 Le fichier SQLite face_recognition.db contient une table :
 
-<pre> ```sql CREATE TABLE personnes ( id INTEGER PRIMARY KEY AUTOINCREMENT, matricule TEXT UNIQUE NOT NULL, nom TEXT NOT NULL, prenom TEXT NOT NULL, age INTEGER, email TEXT, telephone TEXT, face_data BLOB NOT NULL ); ``` </pre>
+<pre>CREATE TABLE personnes ( id INTEGER PRIMARY KEY AUTOINCREMENT, matricule TEXT UNIQUE NOT NULL, nom TEXT NOT NULL, prenom TEXT NOT NULL, age INTEGER, email TEXT, telephone TEXT, face_data BLOB NOT NULL );</pre>
 
 Chaque entrée contient à la fois les métadonnées et les données faciales.
 
